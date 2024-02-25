@@ -10,9 +10,13 @@ const UseCallback = () => {
     const addTodo = useCallback(() => {
         setTodos((prev) => [...prev, `new Entry`])
     }, [todos])
+    // const addTodo = () => {
+    //     setTodos((prev) => [...prev, `new Entry`])
+    // }
 
     return (
         <>
+            <h1>UseCallback Hook</h1>
             <Todos todos={todos} addTodo={addTodo} />
             <hr />
             <div>

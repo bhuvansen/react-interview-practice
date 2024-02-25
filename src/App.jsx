@@ -5,6 +5,7 @@ import UseRef from './UseRef/UseRef'
 import UseMemo from './UseMemo/UseMemo'
 import UseCallback from './UseCallback/UseCallback'
 import UseReducerHook from './UseReducerHook/UseReducerHook'
+import ReduxToolkit from './ReduxToolkit/ReduxToolkit'
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
     <UseMemo/>
     <UseCallback/>
     <UseReducerHook/>
+    <ReduxToolkit/>
     </>
   )
 }
